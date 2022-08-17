@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aroma College</title>
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+  <body>
+    <header>
+      <div class="hidden lg:block bg-cyan-900" aria-label="top-nav">
+        <div class="flex items-center justify-end px-2.5 max-w-6xl font-normal">
+          <div class="pr-2.5 pl-3" aria-label="search container">
+            <button class="items-center flex">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5 text-white"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                />
+              </svg>
+            </button>
+          </div>
+          <div class="px-2.5 py-1.5" aria-label="socials container">
+            <ul class="flex">
+              <li class="mx-2 pl-1.5">
+                <a class="flex items-center text-white gap-1" href="#">
+                  <img class="w-5 h-5" src="./images/facebook.svg" alt="" />
+                </a>
+              </li>
+              <li class="mx-2 pl-1.5">
+                <a class="flex items-center text-white gap-2" href="#">
+                  <img class="w-5 h-5" src="./images/twitter.svg" alt="" />
+                </a>
+              </li>
+              <li class="mx-2 pl-1.5">
+                <a class="flex items-center text-white gap-2" href="#">
+                  <img class="w-5 h-5" src="./images/instagram.svg" alt="" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="lg:border-b border-gray-500" aria-label="bottomnav">
+        <div class="px-3.5 h-11 w-full flex justify-between pt-4 lg:pt-0" aria-label="container">
+            <div class="pr-4" aria-label="logo">
+                <a href="#">
+                    <img class="" src="./images/LOGO.png" alt="">
+                </a>
+            </div>
+            <nav class="hidden lg:flex items-center justify-around flex-auto ">
+                <ul class="flex pl-8 gap-8 text-lg uppercase text-gray-700">
+                    <li><a class="hover:underline" href="">Home</a></li>
+                    <li><a class="hover:underline" href="">About</a></li>
+                    <li><a class="hover:underline" href="">Courses</a></li>
+                    <li><a class="hover:underline" href="">For Students</a></li>
+                    <li><a class="hover:underline" href="">Enroll</a></li>
+                </ul>
+                <button class="uppercase border bg-red-900 text-gray-100 px-3 py-1 rounded-full hover:bg-green-900">Apply Now!</button>
+            </nav>
+            <button class="lg:hidden flex items-center pt-2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 lg:h-6 lg:w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                  </svg>
+            </button>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
